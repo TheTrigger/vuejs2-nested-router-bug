@@ -1,0 +1,32 @@
+{
+  "name": "vue2-vite",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "vite": "node ./bin/vite"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^6.0.10",
+    "@sentry/tracing": "^7.14.0",
+    "@sentry/vue": "^7.14.0",
+    "buefy": "^0.9.22",
+    "vue": "^2.6.12",
+    "vue-router": "^3.6.5",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.3",
+    "prettier-eslint": "^15.0.1",
+    "vite": "^2.9.15",
+    "vite-plugin-vue2": "^2.0.1"
+  }
+}

@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.no-drag {
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+}
+
+.columns.is-vcentered {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.noselect {
+  cursor: default;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
