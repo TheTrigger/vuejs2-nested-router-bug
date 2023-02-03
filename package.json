@@ -2,11 +2,8 @@
   "name": "vue2-vite",
   "version": "1.0.0",
   "scripts": {
-    "serve": "vite preview",
-    "build": "vite build",
-    "lint": "vue-cli-service lint",
     "dev": "vite",
-    "vite": "node ./bin/vite"
+    "build": "vite build"
   },
   "dependencies": {
     "@microsoft/signalr": "^6.0.10",
